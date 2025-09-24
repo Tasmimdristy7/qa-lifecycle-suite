@@ -39,11 +39,11 @@ graph TB
     E --> E3[Release Health]
     E --> E4[Final Summary]
     
-    style A fill:#e8f4fd
-    style B fill:#f0f8ff
-    style C fill:#f5f5dc
-    style D fill:#fff8dc
-    style E fill:#f0fff0
+    style A fill:#2c3e50,color:#ffffff
+    style B fill:#34495e,color:#ffffff
+    style C fill:#7f8c8d,color:#ffffff
+    style D fill:#95a5a6,color:#ffffff
+    style E fill:#bdc3c7,color:#2c3e50
 ```
 
 ## Skills Matrix Visualization
@@ -79,12 +79,12 @@ graph LR
     F --> F2[Data Protection]
     F --> F3[Session Management]
     
-    style A fill:#e8f4fd
-    style B fill:#f0fff0
-    style C fill:#f8f8ff
-    style D fill:#fff8dc
-    style E fill:#f0f8ff
-    style F fill:#ffe4e1
+    style A fill:#2c3e50,color:#ffffff
+    style B fill:#27ae60,color:#ffffff
+    style C fill:#3498db,color:#ffffff
+    style D fill:#f39c12,color:#ffffff
+    style E fill:#9b59b6,color:#ffffff
+    style F fill:#e74c3c,color:#ffffff
 ```
 
 ### Process Skills
@@ -112,11 +112,11 @@ graph TD
     E --> E2[Risk Mitigation]
     E --> E3[Stakeholder Communication]
     
-    style A fill:#e8f4fd
-    style B fill:#f0fff0
-    style C fill:#f8f8ff
-    style D fill:#fff8dc
-    style E fill:#f0f8ff
+    style A fill:#2c3e50,color:#ffffff
+    style B fill:#27ae60,color:#ffffff
+    style C fill:#3498db,color:#ffffff
+    style D fill:#f39c12,color:#ffffff
+    style E fill:#9b59b6,color:#ffffff
 ```
 
 ## Quality Metrics Dashboard
@@ -139,10 +139,10 @@ graph LR
     A --> D[Safari: 85.7%]
     A --> E[Edge: 100%]
     
-    style B fill:#e6ffe6
-    style C fill:#e6ffe6
-    style D fill:#fff8dc
-    style E fill:#e6ffe6
+    style B fill:#27ae60,color:#ffffff
+    style C fill:#27ae60,color:#ffffff
+    style D fill:#f39c12,color:#ffffff
+    style E fill:#27ae60,color:#ffffff
 ```
 
 ### Performance Metrics
@@ -154,10 +154,10 @@ graph TD
     A --> D[Validation: 0.1s/0.5s]
     A --> E[Memory Usage: 45MB/100MB]
     
-    style B fill:#e6ffe6
-    style C fill:#e6ffe6
-    style D fill:#e6ffe6
-    style E fill:#e6ffe6
+    style B fill:#27ae60,color:#ffffff
+    style C fill:#27ae60,color:#ffffff
+    style D fill:#27ae60,color:#ffffff
+    style E fill:#27ae60,color:#ffffff
 ```
 
 ## Release Health Assessment
@@ -172,12 +172,12 @@ graph LR
     A --> E[Security: 80/100]
     A --> F[Usability: 90/100]
     
-    style A fill:#e8f4fd
-    style B fill:#fff8dc
-    style C fill:#e6ffe6
-    style D fill:#e6ffe6
-    style E fill:#fff8dc
-    style F fill:#e6ffe6
+    style A fill:#2c3e50,color:#ffffff
+    style B fill:#f39c12,color:#ffffff
+    style C fill:#27ae60,color:#ffffff
+    style D fill:#27ae60,color:#ffffff
+    style E fill:#f39c12,color:#ffffff
+    style F fill:#27ae60,color:#ffffff
 ```
 
 ## Portfolio Value
@@ -280,12 +280,12 @@ graph LR
     E --> E1[Portfolio Assessment]
     F --> F1[Learning Resource]
     
-    style A fill:#e8f4fd
-    style B fill:#f0fff0
-    style C fill:#f8f8ff
-    style D fill:#fff8dc
-    style E fill:#f0f8ff
-    style F fill:#f0fff0
+    style A fill:#2c3e50,color:#ffffff
+    style B fill:#27ae60,color:#ffffff
+    style C fill:#3498db,color:#ffffff
+    style D fill:#f39c12,color:#ffffff
+    style E fill:#9b59b6,color:#ffffff
+    style F fill:#e74c3c,color:#ffffff
 ```
 
 ## Getting Started
@@ -306,12 +306,12 @@ graph TD
     E --> E1[npm test]
     F --> F1[open dashboards]
     
-    style A fill:#e8f4fd
-    style B fill:#f0fff0
-    style C fill:#f8f8ff
-    style D fill:#fff8dc
-    style E fill:#f0f8ff
-    style F fill:#ffe4e1
+    style A fill:#2c3e50,color:#ffffff
+    style B fill:#27ae60,color:#ffffff
+    style C fill:#3498db,color:#ffffff
+    style D fill:#f39c12,color:#ffffff
+    style E fill:#9b59b6,color:#ffffff
+    style F fill:#e74c3c,color:#ffffff
 ```
 
 ## Key Achievements

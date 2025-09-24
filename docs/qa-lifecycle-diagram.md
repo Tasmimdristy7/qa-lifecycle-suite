@@ -16,18 +16,18 @@ graph TD
     J --> K[Release Decision]
     K --> L[Final Reporting]
     
-    style A fill:#e8f4fd
-    style B fill:#f0f8ff
-    style C fill:#f5f5dc
-    style D fill:#fff8dc
-    style E fill:#f0fff0
-    style F fill:#f8f8ff
-    style G fill:#e6f3ff
-    style H fill:#fffacd
-    style I fill:#ffe4e1
-    style J fill:#f0fff0
-    style K fill:#e8f4fd
-    style L fill:#f0f8ff
+    style A fill:#2c3e50,color:#ffffff
+    style B fill:#34495e,color:#ffffff
+    style C fill:#7f8c8d,color:#ffffff
+    style D fill:#95a5a6,color:#ffffff
+    style E fill:#bdc3c7,color:#2c3e50
+    style F fill:#d5dbdb,color:#2c3e50
+    style G fill:#e8f4f8,color:#2c3e50
+    style H fill:#f4f6f7,color:#2c3e50
+    style I fill:#f8f9fa,color:#2c3e50
+    style J fill:#ecf0f1,color:#2c3e50
+    style K fill:#d5dbdb,color:#2c3e50
+    style L fill:#bdc3c7,color:#2c3e50
 ```
 
 ## QA Skills Matrix
@@ -111,10 +111,10 @@ graph LR
     D --> D1[85.7% Compatible]
     E --> E1[100% Compatible]
     
-    style B1 fill:#e6ffe6
-    style C1 fill:#e6ffe6
-    style D1 fill:#fff8dc
-    style E1 fill:#e6ffe6
+    style B1 fill:#27ae60,color:#ffffff
+    style C1 fill:#27ae60,color:#ffffff
+    style D1 fill:#f39c12,color:#ffffff
+    style E1 fill:#27ae60,color:#ffffff
 ```
 
 ## Performance Metrics Dashboard
@@ -131,10 +131,10 @@ graph TD
     D --> D1[Target: <0.5s<br/>Actual: 0.1s]
     E --> E1[Target: <100MB<br/>Actual: 45MB]
     
-    style B1 fill:#e6ffe6
-    style C1 fill:#e6ffe6
-    style D1 fill:#e6ffe6
-    style E1 fill:#e6ffe6
+    style B1 fill:#27ae60,color:#ffffff
+    style C1 fill:#27ae60,color:#ffffff
+    style D1 fill:#27ae60,color:#ffffff
+    style E1 fill:#27ae60,color:#ffffff
 ```
 
 ## Release Health Score
@@ -147,10 +147,10 @@ graph LR
     A --> E[Security: 80/100]
     A --> F[Usability: 90/100]
     
-    style A fill:#e8f4fd
-    style B fill:#fff8dc
-    style C fill:#e6ffe6
-    style D fill:#e6ffe6
-    style E fill:#fff8dc
-    style F fill:#e6ffe6
+    style A fill:#2c3e50,color:#ffffff
+    style B fill:#f39c12,color:#ffffff
+    style C fill:#27ae60,color:#ffffff
+    style D fill:#27ae60,color:#ffffff
+    style E fill:#f39c12,color:#ffffff
+    style F fill:#27ae60,color:#ffffff
 ```

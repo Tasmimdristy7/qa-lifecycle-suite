@@ -19,12 +19,12 @@ graph TB
     D --> E
     E --> F
     
-    style A fill:#e8f4fd
-    style B fill:#f0f8ff
-    style C fill:#f5f5dc
-    style D fill:#fff8dc
-    style E fill:#f0fff0
-    style F fill:#e8f4fd
+    style A fill:#2c3e50,color:#ffffff
+    style B fill:#34495e,color:#ffffff
+    style C fill:#7f8c8d,color:#ffffff
+    style D fill:#95a5a6,color:#ffffff
+    style E fill:#bdc3c7,color:#2c3e50
+    style F fill:#d5dbdb,color:#2c3e50
 ```
 
 ## Skills Demonstrated
