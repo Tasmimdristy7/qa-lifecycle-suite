@@ -147,42 +147,65 @@ open metrics/qa-dashboard.html
 ### Skills Demonstrated
 
 ```mermaid
-mindmap
-  root((QA Excellence))
-    Technical Skills
-      Test Automation
-        Cypress Framework
-        Custom Commands
-        Cross-Browser Testing
-      Performance Testing
-        Load Time Analysis
-        Memory Optimization
-        Response Time Testing
-      Mobile Testing
-        Responsive Design
-        Cross-Device Compatibility
-    Process Skills
-      Test Strategy
-        Risk Assessment
-        Resource Planning
-        Timeline Management
-      Quality Management
-        Metrics Definition
-        KPI Tracking
-        Health Scoring
-      Release Management
-        Readiness Assessment
-        Risk Mitigation
-        Stakeholder Communication
-    Professional Skills
-      Documentation
-        Technical Writing
-        Process Documentation
-        Report Generation
-      Communication
-        Executive Summaries
-        Technical Presentations
-        Stakeholder Updates
+graph TB
+    A[QA Excellence] --> B[Technical Skills]
+    A --> C[Process Skills]
+    A --> D[Professional Skills]
+    
+    B --> B1[Test Automation]
+    B --> B2[Performance Testing]
+    B --> B3[Mobile Testing]
+    
+    B1 --> B1a[Cypress Framework]
+    B1 --> B1b[Custom Commands]
+    B1 --> B1c[Cross-Browser Testing]
+    
+    B2 --> B2a[Load Time Analysis]
+    B2 --> B2b[Memory Optimization]
+    B2 --> B2c[Response Time Testing]
+    
+    B3 --> B3a[Responsive Design]
+    B3 --> B3b[Cross-Device Compatibility]
+    
+    C --> C1[Test Strategy]
+    C --> C2[Quality Management]
+    C --> C3[Release Management]
+    
+    C1 --> C1a[Risk Assessment]
+    C1 --> C1b[Resource Planning]
+    C1 --> C1c[Timeline Management]
+    
+    C2 --> C2a[Metrics Definition]
+    C2 --> C2b[KPI Tracking]
+    C2 --> C2c[Health Scoring]
+    
+    C3 --> C3a[Readiness Assessment]
+    C3 --> C3b[Risk Mitigation]
+    C3 --> C3c[Stakeholder Communication]
+    
+    D --> D1[Documentation]
+    D --> D2[Communication]
+    
+    D1 --> D1a[Technical Writing]
+    D1 --> D1b[Process Documentation]
+    D1 --> D1c[Report Generation]
+    
+    D2 --> D2a[Executive Summaries]
+    D2 --> D2b[Technical Presentations]
+    D2 --> D2c[Stakeholder Updates]
+    
+    style A fill:#2c3e50,color:#ffffff
+    style B fill:#27ae60,color:#ffffff
+    style C fill:#3498db,color:#ffffff
+    style D fill:#9b59b6,color:#ffffff
+    style B1 fill:#2ecc71,color:#ffffff
+    style B2 fill:#2ecc71,color:#ffffff
+    style B3 fill:#2ecc71,color:#ffffff
+    style C1 fill:#3498db,color:#ffffff
+    style C2 fill:#3498db,color:#ffffff
+    style C3 fill:#3498db,color:#ffffff
+    style D1 fill:#8e44ad,color:#ffffff
+    style D2 fill:#8e44ad,color:#ffffff
 ```
 
 ## Portfolio Value
