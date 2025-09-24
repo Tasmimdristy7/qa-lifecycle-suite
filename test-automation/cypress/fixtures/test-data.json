@@ -1,0 +1,109 @@
+{
+  "users": {
+    "validUser": {
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "password": "password123",
+      "age": 25
+    },
+    "invalidUser": {
+      "name": "Jane Doe",
+      "email": "jane.doe@example.com",
+      "password": "password123",
+      "age": 25
+    },
+    "adminUser": {
+      "name": "Admin User",
+      "email": "admin@example.com",
+      "password": "admin123",
+      "age": 30
+    }
+  },
+  "testScenarios": {
+    "registration": {
+      "validData": {
+        "name": "Test User",
+        "email": "test@example.com",
+        "password": "password123",
+        "confirmPassword": "password123",
+        "age": 25
+      },
+      "invalidEmail": {
+        "name": "Test User",
+        "email": "invalid-email",
+        "password": "password123",
+        "confirmPassword": "password123",
+        "age": 25
+      },
+      "weakPassword": {
+        "name": "Test User",
+        "email": "test@example.com",
+        "password": "123",
+        "confirmPassword": "123",
+        "age": 25
+      },
+      "mismatchedPasswords": {
+        "name": "Test User",
+        "email": "test@example.com",
+        "password": "password123",
+        "confirmPassword": "different123",
+        "age": 25
+      },
+      "invalidAge": {
+        "name": "Test User",
+        "email": "test@example.com",
+        "password": "password123",
+        "confirmPassword": "password123",
+        "age": 15
+      }
+    },
+    "login": {
+      "validCredentials": {
+        "email": "test@example.com",
+        "password": "password123"
+      },
+      "invalidEmail": {
+        "email": "invalid-email",
+        "password": "password123"
+      },
+      "invalidPassword": {
+        "email": "test@example.com",
+        "password": "wrongpassword"
+      },
+      "emptyFields": {
+        "email": "",
+        "password": ""
+      }
+    },
+    "profile": {
+      "validUpdate": {
+        "name": "Updated Test User",
+        "age": 30
+      },
+      "invalidName": {
+        "name": "A",
+        "age": 30
+      },
+      "invalidAge": {
+        "name": "Test User",
+        "age": 15
+      }
+    }
+  },
+  "errorMessages": {
+    "email": "Please enter a valid email address",
+    "password": "Password must be at least 6 characters",
+    "name": "Name must be at least 2 characters",
+    "age": "Age must be between 18 and 100",
+    "passwordMismatch": "Passwords do not match",
+    "duplicateEmail": "Email already exists",
+    "invalidLogin": "Invalid email or password"
+  },
+  "successMessages": {
+    "registration": "Registration successful! Please login.",
+    "login": "Login successful!",
+    "profileUpdate": "Profile updated successfully!",
+    "accountDelete": "Account deleted successfully",
+    "logout": "Logged out successfully"
+  }
+}

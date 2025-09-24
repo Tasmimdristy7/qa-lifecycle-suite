@@ -1,0 +1,33 @@
+{
+  "name": "user-management-test-automation",
+  "version": "1.0.0",
+  "description": "Test automation for User Management System",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "test:open": "cypress open",
+    "test:chrome": "cypress run --browser chrome",
+    "test:firefox": "cypress run --browser firefox",
+    "test:headed": "cypress run --headed",
+    "test:smoke": "cypress run --spec 'cypress/e2e/smoke/*.cy.js'",
+    "test:regression": "cypress run --spec 'cypress/e2e/regression/*.cy.js'",
+    "test:api": "cypress run --spec 'cypress/e2e/api/*.cy.js'"
+  },
+  "keywords": [
+    "testing",
+    "automation",
+    "cypress",
+    "e2e"
+  ],
+  "author": "QA Team",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^13.6.0",
+    "cypress-mochawesome-reporter": "^3.5.0",
+    "cypress-xpath": "^2.0.1",
+    "cypress-real-events": "^1.8.0"
+  },
+  "dependencies": {
+    "faker": "^5.5.3"
+  }
+}

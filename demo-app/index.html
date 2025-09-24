@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Management System - Demo App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>User Management System</h1>
+            <nav>
+                <button id="loginBtn" class="nav-btn active">Login</button>
+                <button id="registerBtn" class="nav-btn">Register</button>
+                <button id="profileBtn" class="nav-btn" style="display: none;">Profile</button>
+                <button id="logoutBtn" class="nav-btn" style="display: none;">Logout</button>
+            </nav>
+        </header>
+
+        <main>
+            <!-- Login Form -->
+            <div id="loginForm" class="form-container">
+                <h2>Login</h2>
+                <form id="login">
+                    <div class="form-group">
+                        <label for="loginEmail">Email:</label>
+                        <input type="email" id="loginEmail" name="email" required>
+                        <span class="error" id="loginEmailError"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="loginPassword">Password:</label>
+                        <input type="password" id="loginPassword" name="password" required>
+                        <span class="error" id="loginPasswordError"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Login</button>
+                </form>
+                <div id="loginMessage" class="message"></div>
+            </div>
+
+            <!-- Registration Form -->
+            <div id="registerForm" class="form-container" style="display: none;">
+                <h2>Register</h2>
+                <form id="register">
+                    <div class="form-group">
+                        <label for="regName">Full Name:</label>
+                        <input type="text" id="regName" name="name" required>
+                        <span class="error" id="regNameError"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="regEmail">Email:</label>
+                        <input type="email" id="regEmail" name="email" required>
+                        <span class="error" id="regEmailError"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="regPassword">Password:</label>
+                        <input type="password" id="regPassword" name="password" required>
+                        <span class="error" id="regPasswordError"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="regConfirmPassword">Confirm Password:</label>
+                        <input type="password" id="regConfirmPassword" name="confirmPassword" required>
+                        <span class="error" id="regConfirmPasswordError"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="regAge">Age:</label>
+                        <input type="number" id="regAge" name="age" min="18" max="100" required>
+                        <span class="error" id="regAgeError"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Register</button>
+                </form>
+                <div id="registerMessage" class="message"></div>
+            </div>
+
+            <!-- Profile Management -->
+            <div id="profileForm" class="form-container" style="display: none;">
+                <h2>User Profile</h2>
+                <div id="userInfo">
+                    <p><strong>Name:</strong> <span id="displayName"></span></p>
+                    <p><strong>Email:</strong> <span id="displayEmail"></span></p>
+                    <p><strong>Age:</strong> <span id="displayAge"></span></p>
+                    <p><strong>Member since:</strong> <span id="displayJoinDate"></span></p>
+                </div>
+                <button id="editProfileBtn" class="btn btn-secondary">Edit Profile</button>
+                <button id="deleteAccountBtn" class="btn btn-danger">Delete Account</button>
+            </div>
+
+            <!-- Edit Profile Form -->
+            <div id="editProfileForm" class="form-container" style="display: none;">
+                <h2>Edit Profile</h2>
+                <form id="editProfile">
+                    <div class="form-group">
+                        <label for="editName">Full Name:</label>
+                        <input type="text" id="editName" name="name" required>
+                        <span class="error" id="editNameError"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="editAge">Age:</label>
+                        <input type="number" id="editAge" name="age" min="18" max="100" required>
+                        <span class="error" id="editAgeError"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Update Profile</button>
+                    <button type="button" id="cancelEditBtn" class="btn btn-secondary">Cancel</button>
+                </form>
+                <div id="editMessage" class="message"></div>
+            </div>
+        </main>
+
+        <!-- User List (Admin View) -->
+        <div id="userList" class="user-list" style="display: none;">
+            <h3>All Users</h3>
+            <div id="usersTable"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

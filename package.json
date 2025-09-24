@@ -1,0 +1,48 @@
+{
+  "name": "qa-lifecycle-excellence-suite",
+  "version": "1.0.0",
+  "description": "A comprehensive QA lifecycle demonstration project showcasing advanced testing skills, automation, and quality assurance processes",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "test:open": "cypress open",
+    "test:chrome": "cypress run --browser chrome",
+    "test:firefox": "cypress run --browser firefox",
+    "test:headed": "cypress run --headed",
+    "test:smoke": "cypress run --spec 'cypress/e2e/smoke/*.cy.js'",
+    "test:regression": "cypress run --spec 'cypress/e2e/regression/*.cy.js'",
+    "serve": "python -m http.server 8000",
+    "serve:demo": "cd demo-app && python -m http.server 3000"
+  },
+  "keywords": [
+    "qa",
+    "testing",
+    "automation",
+    "cypress",
+    "quality-assurance",
+    "test-strategy",
+    "test-planning",
+    "sdet",
+    "portfolio",
+    "showcase"
+  ],
+  "author": "QA Professional",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/qa-lifecycle-excellence-suite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/qa-lifecycle-excellence-suite/issues"
+  },
+  "homepage": "https://github.com/yourusername/qa-lifecycle-excellence-suite#readme",
+  "devDependencies": {
+    "cypress": "^13.6.0",
+    "cypress-mochawesome-reporter": "^3.5.0",
+    "cypress-xpath": "^2.0.1",
+    "cypress-real-events": "^1.8.0"
+  },
+  "dependencies": {
+    "faker": "^5.5.3"
+  }
+}
