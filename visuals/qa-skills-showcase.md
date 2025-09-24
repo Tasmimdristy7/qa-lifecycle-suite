@@ -1,16 +1,16 @@
 # QA Skills Visual Showcase
 
-## 🎯 Project Overview
+## Project Overview
 
 ```mermaid
 graph TB
-    subgraph "🎯 QA Lifecycle Excellence Suite"
-        A[📋 Test Strategy & Planning]
-        B[🔍 Requirements Traceability]
-        C[🧪 Test Case Design & Automation]
-        D[⚡ Test Execution & Reporting]
-        E[📊 Metrics & Dashboards]
-        F[🚀 Release Management]
+    subgraph "QA Lifecycle Excellence Suite"
+        A[Test Strategy & Planning]
+        B[Requirements Traceability]
+        C[Test Case Design & Automation]
+        D[Test Execution & Reporting]
+        E[Metrics & Dashboards]
+        F[Release Management]
     end
     
     A --> B
@@ -19,15 +19,15 @@ graph TB
     D --> E
     E --> F
     
-    style A fill:#e3f2fd
-    style B fill:#f3e5f5
-    style C fill:#e8f5e8
-    style D fill:#fff3e0
-    style E fill:#fce4ec
-    style F fill:#e1f5fe
+    style A fill:#e8f4fd
+    style B fill:#f0f8ff
+    style C fill:#f5f5dc
+    style D fill:#fff8dc
+    style E fill:#f0fff0
+    style F fill:#e8f4fd
 ```
 
-## 🏆 Skills Demonstrated
+## Skills Demonstrated
 
 ### Technical Skills Matrix
 
